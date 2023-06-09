@@ -1,6 +1,5 @@
 from cmath import sqrt
-import sys 
-import math
+import sys
 
 def F(n):
     return (((1+sqrt(5))/2)**(n)-((1-sqrt(5))/2)**(n))/(sqrt(5))
